@@ -22,9 +22,7 @@ class plgSystemWannaleave extends JPlugin
 	 	if ( $view == 'article' )
 	 	{
 			$document = JFactory::getDocument();
-			//$document->addScript(__DIR__ . '/js/wannaleave.js');
-			// local testscript
-			$document->addScript('http://localhost/joomlatest/plugins/system/wannaleave/js/wannaleave.js');
+			$document->addScript(__DIR__ . '/js/wannaleave.js');
 		}
 		return true;
 	}
