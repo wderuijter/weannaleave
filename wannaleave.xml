@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+    <name>plg_system_wannaleave</name>
+    <author>Wim de Ruijter</author>
+    <creationDate>May 2015</creationDate>
+    <copyright>(C) 2005 - 2013 Open Source Matters. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see	LICENSE.txt</license>
+    <authorEmail>info@menolo.nl</authorEmail>
+    <authorUrl>www.menolo.nl</authorUrl>
+    <version>3.0.0</version>
+    <description>PLG_SYSTEM_WANNALEAVEPARAMS_XML_DESCRIPTION</description>
+    <files>
+        <file plugin="wannaleave">wannaleave.php</file>
+        <filename>index.html</filename>
+        <folder>js</folder>
+    </files>
+    <languages>
+        <language tag="en-GB">en-GB.plg_system_wannaleave.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
